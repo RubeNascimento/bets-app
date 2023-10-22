@@ -1,0 +1,28 @@
+.games {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(48,48,48,1);
+    background-color: rgba(48,48,48,1);
+    padding: 2rem;
+    position: relative;
+}
+
+.fontSmall {
+    text-align: center;
+    font-size: 8pt;
+}
+
+.date {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    top: 1rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-left: calc(50% - 2rem - 75px);
+    letter-spacing: 2px;
+    color: rgba(108,108,108,1);
+}
