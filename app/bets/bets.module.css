@@ -1,0 +1,26 @@
+.betsList {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    place-items: center;
+    gap: 5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(48,48,48,1);
+    background-color: rgba(48,48,48,1);
+    padding: 2rem;
+    position: relative;
+}
+
+.betsHeader {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    place-items: center;
+    gap: 5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(60,60,60,1);
+    color: rgb(112, 112, 112);
+    padding: 0.5rem 2rem;
+    position: relative;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
